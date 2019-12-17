@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{A16A0FA4-E2D2-4F6A-AEE8-9D388386F67E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.csproj", "{7485E489-EB2E-40D4-969F-75657CC1AE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTour", "KnightsTour\KnightsTour.csproj", "{DCE78B16-0580-481B-A0D4-27BCD0981322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16A0FA4-E2D2-4F6A-AEE8-9D388386F67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16A0FA4-E2D2-4F6A-AEE8-9D388386F67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16A0FA4-E2D2-4F6A-AEE8-9D388386F67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16A0FA4-E2D2-4F6A-AEE8-9D388386F67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7485E489-EB2E-40D4-969F-75657CC1AE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7485E489-EB2E-40D4-969F-75657CC1AE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7485E489-EB2E-40D4-969F-75657CC1AE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7485E489-EB2E-40D4-969F-75657CC1AE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE78B16-0580-481B-A0D4-27BCD0981322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE78B16-0580-481B-A0D4-27BCD0981322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE78B16-0580-481B-A0D4-27BCD0981322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE78B16-0580-481B-A0D4-27BCD0981322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47849286-AC78-4BDD-B199-9749622DC8B1}
+	EndGlobalSection
+EndGlobal
