@@ -6,22 +6,20 @@ namespace ProcessorScheduling
 {
     class Program
     {
-        private static List<Task> completedTasks = new List<Task>();
-
         static void Main(string[] args)
         {
             int tasksCount = int.Parse(Console.ReadLine().Split()[1]);
             List<Task> tasks = new List<Task>();
-            int maxDeadline = 0;
+            int steps = 0;
 
             for (int i = 0; i < tasksCount; i++)
             {
                 string[] taskParts = Console.ReadLine().Split();
                 int value = int.Parse(taskParts[0]);
                 int deadline = int.Parse(taskParts[2]);
-                if (deadline > maxDeadline)
+                if (deadline > steps)
                 {
-                    maxDeadline = deadline;
+                    steps = deadline;
                 }
 
                 tasks.Add(new Task
@@ -32,33 +30,11 @@ namespace ProcessorScheduling
                 });
             }
 
-            int totalValue = ChooseTasks(tasks, maxDeadline);
-            var compltedTasksNumbers = completedTasks.OrderBy(x => x.Deadline).Select(x => x.Number);
+            tasks = tasks.OrderByDescending(x => x.Value).ToList();
+            var completedTasks = tasks.Take(steps).ToList();
+            var compltedTasksNumbers = completedTasks.OrderBy(x => x.Deadline).ThenByDescending(x => x.Value).Select(x => x.Number);
             Console.WriteLine($"Optimal schedule: {string.Join(" -> ", compltedTasksNumbers)}");
-            Console.WriteLine($"Total value: {totalValue}");
-        }
-
-        private static int ChooseTasks(List<Task> tasks, int steps)
-        {
-            tasks = tasks.OrderByDescending(x => x.Value).ThenBy(x => x.Deadline).ToList();
-            int index = 0;
-            int totalSteps = 0;
-            int totalValue = 0;
-
-            while (index < tasks.Count && totalSteps < steps)
-            {
-                var currentTask = tasks[index++];
-                if (currentTask.Deadline < totalSteps)
-                {
-                    continue;
-                }
-
-                completedTasks.Add(currentTask);
-                totalValue += currentTask.Value;
-                totalSteps++;
-            }
-
-            return totalValue;
+            Console.WriteLine($"Total value: {completedTasks.Sum(x => x.Value)}");
         }
 
         public class Task

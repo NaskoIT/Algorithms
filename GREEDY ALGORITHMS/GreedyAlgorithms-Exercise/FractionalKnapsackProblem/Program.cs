@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -31,13 +31,13 @@ namespace FractionalKnapsackProblem
             double totalPrice = 0;
             int index = 0;
 
-            while(currentCapacity < capacity && index < items.Count)
+            while (currentCapacity < capacity && index < items.Count)
             {
                 Item currentItem = items[index++];
 
                 double remainingCapacity = capacity - currentCapacity;
                 double quantityPercentage = 1;
-                if(remainingCapacity < currentItem.Weight)
+                if (remainingCapacity < currentItem.Weight)
                 {
                     quantityPercentage = remainingCapacity / currentItem.Weight;
                     currentCapacity = capacity;
