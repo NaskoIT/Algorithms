@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{A16A0FA4-E2D2-4F6A-AEE8-9D388386F67E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{A16A0FA4-E2D2-4F6A-AEE8-9D388386F67E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.csproj", "{7485E489-EB2E-40D4-969F-75657CC1AE41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.csproj", "{7485E489-EB2E-40D4-969F-75657CC1AE41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTour", "KnightsTour\KnightsTour.csproj", "{DCE78B16-0580-481B-A0D4-27BCD0981322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnightsTour", "KnightsTour\KnightsTour.csproj", "{DCE78B16-0580-481B-A0D4-27BCD0981322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestLecturesSchedule", "BestLecturesSchedule\BestLecturesSchedule.csproj", "{B1F9B95D-05D7-4638-BFCC-F4DB469CB280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptianFractions", "EgyptianFractions\EgyptianFractions.csproj", "{B506F424-E35B-4988-BEFB-F54D59040A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{DCE78B16-0580-481B-A0D4-27BCD0981322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE78B16-0580-481B-A0D4-27BCD0981322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE78B16-0580-481B-A0D4-27BCD0981322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F9B95D-05D7-4638-BFCC-F4DB469CB280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F9B95D-05D7-4638-BFCC-F4DB469CB280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F9B95D-05D7-4638-BFCC-F4DB469CB280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F9B95D-05D7-4638-BFCC-F4DB469CB280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B506F424-E35B-4988-BEFB-F54D59040A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B506F424-E35B-4988-BEFB-F54D59040A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B506F424-E35B-4988-BEFB-F54D59040A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B506F424-E35B-4988-BEFB-F54D59040A0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
