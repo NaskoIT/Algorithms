@@ -7,9 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSubsequence", "LongestIncreasingSubsequence\LongestIncreasingSubsequence.csproj", "{173FE9A7-8DC3-42AB-B565-14D34786B5DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveDownOrRight", "MoveDownOrRight\MoveDownOrRight.csproj", "{BEB0CBBB-7C2A-4954-A8AD-F0F58ED5E9C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveDownOrRight", "MoveDownOrRight\MoveDownOrRight.csproj", "{BEB0CBBB-7C2A-4954-A8AD-F0F58ED5E9C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodCutting", "RodCutting\RodCutting.csproj", "{AE02C647-E3F4-4BA2-980B-4668563DDA15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodCutting", "RodCutting\RodCutting.csproj", "{AE02C647-E3F4-4BA2-980B-4668563DDA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack", "Knapsack\Knapsack.csproj", "{8FADA995-675D-464C-A3A9-35C913B4DC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSum", "SubsetSum\SubsetSum.csproj", "{968F3262-C10B-4724-8546-893F224B7B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSumWithRepeats", "SubsetSumWithRepeats\SubsetSumWithRepeats.csproj", "{B20526D9-31BB-45CA-8017-812A476F6E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{69DC8207-325A-4BDF-98B6-116C0CD16E3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{AE02C647-E3F4-4BA2-980B-4668563DDA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE02C647-E3F4-4BA2-980B-4668563DDA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE02C647-E3F4-4BA2-980B-4668563DDA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FADA995-675D-464C-A3A9-35C913B4DC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FADA995-675D-464C-A3A9-35C913B4DC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FADA995-675D-464C-A3A9-35C913B4DC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FADA995-675D-464C-A3A9-35C913B4DC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968F3262-C10B-4724-8546-893F224B7B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968F3262-C10B-4724-8546-893F224B7B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968F3262-C10B-4724-8546-893F224B7B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968F3262-C10B-4724-8546-893F224B7B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20526D9-31BB-45CA-8017-812A476F6E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20526D9-31BB-45CA-8017-812A476F6E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20526D9-31BB-45CA-8017-812A476F6E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20526D9-31BB-45CA-8017-812A476F6E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DC8207-325A-4BDF-98B6-116C0CD16E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DC8207-325A-4BDF-98B6-116C0CD16E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DC8207-325A-4BDF-98B6-116C0CD16E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DC8207-325A-4BDF-98B6-116C0CD16E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
