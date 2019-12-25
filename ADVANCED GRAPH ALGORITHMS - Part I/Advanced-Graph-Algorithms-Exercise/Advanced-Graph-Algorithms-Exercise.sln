@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CableNetwork", "CableNetwork\CableNetwork.csproj", "{475774B6-3131-456E-A24C-47DCA683B688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModifiedKruskalAlgorithm", "ModifiedKruskalAlgorithm\ModifiedKruskalAlgorithm.csproj", "{F1204F7A-F342-4FA3-99DF-96B50936531C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostReliablePath", "MostReliablePath\MostReliablePath.csproj", "{65E59182-3023-4C11-A4CB-DE210743D524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{475774B6-3131-456E-A24C-47DCA683B688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475774B6-3131-456E-A24C-47DCA683B688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475774B6-3131-456E-A24C-47DCA683B688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475774B6-3131-456E-A24C-47DCA683B688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1204F7A-F342-4FA3-99DF-96B50936531C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1204F7A-F342-4FA3-99DF-96B50936531C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1204F7A-F342-4FA3-99DF-96B50936531C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1204F7A-F342-4FA3-99DF-96B50936531C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E59182-3023-4C11-A4CB-DE210743D524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E59182-3023-4C11-A4CB-DE210743D524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E59182-3023-4C11-A4CB-DE210743D524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E59182-3023-4C11-A4CB-DE210743D524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBB1BF15-EB0B-48A6-8646-C74124FD790A}
+	EndGlobalSection
+EndGlobal
