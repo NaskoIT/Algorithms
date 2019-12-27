@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumTasksAssaignment", "MaximumTasksAssaignment\MaximumTasksAssaignment.csproj", "{ABB85A2F-50F6-4F62-8CC2-3AE34D8C0FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBiConnectedComponents", "FindBiConnectedComponents\FindBiConnectedComponents.csproj", "{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB85A2F-50F6-4F62-8CC2-3AE34D8C0FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB85A2F-50F6-4F62-8CC2-3AE34D8C0FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB85A2F-50F6-4F62-8CC2-3AE34D8C0FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB85A2F-50F6-4F62-8CC2-3AE34D8C0FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9034CFCB-595D-43A8-B4B6-841B044174CC}
+	EndGlobalSection
+EndGlobal
