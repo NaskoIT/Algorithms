@@ -59,6 +59,7 @@ namespace Knapsack
                 {
                     if (currentItem.Weight > capacity)
                     {
+                        prices[rowIndex, capacity] = prices[rowIndex - 1, capacity];
                         continue;
                     }
 
