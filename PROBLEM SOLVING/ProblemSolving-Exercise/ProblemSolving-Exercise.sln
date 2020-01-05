@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopKeeper", "ShopKeeper\Sh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shelter", "Shelter\Shelter.csproj", "{8762F5C1-EA45-4BCD-B262-ECB79F59D123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastAndFurious", "FastAndFurious\FastAndFurious.csproj", "{A99ED9E0-4330-446B-9541-FD7B93B8F50B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastAndFurious", "FastAndFurious\FastAndFurious.csproj", "{A99ED9E0-4330-446B-9541-FD7B93B8F50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renewal", "Renewal\Renewal.csproj", "{56309A85-CE00-4578-BE46-7B1914200121}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A99ED9E0-4330-446B-9541-FD7B93B8F50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A99ED9E0-4330-446B-9541-FD7B93B8F50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A99ED9E0-4330-446B-9541-FD7B93B8F50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56309A85-CE00-4578-BE46-7B1914200121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56309A85-CE00-4578-BE46-7B1914200121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56309A85-CE00-4578-BE46-7B1914200121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56309A85-CE00-4578-BE46-7B1914200121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
