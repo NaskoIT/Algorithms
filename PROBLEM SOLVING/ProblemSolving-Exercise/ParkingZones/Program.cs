@@ -23,8 +23,7 @@ namespace ParkingZones
 
         private static void FindBestParkingSpace(int neededSecondsToTraverseBlock)
         {
-            int bestX = 0;
-            int bestY = 0;
+            Point bestFreeSpace = null;
             double bestPrice = double.MaxValue;
             int bestTimeInSeconds = int.MaxValue;
 
@@ -39,13 +38,12 @@ namespace ParkingZones
                 if(totalPrice < bestPrice || (totalPrice == bestPrice && bestTimeInSeconds > seconds))
                 {
                     bestPrice = totalPrice;
-                    bestX = freeSpace.X;
-                    bestY = freeSpace.Y;
                     bestTimeInSeconds = seconds;
+                    bestFreeSpace = freeSpace;
                 }
             }
 
-            Console.WriteLine($"Zone Type: Green; X: {bestX}; Y: {bestY}; Price: {bestPrice:F2}");
+            Console.WriteLine($"Zone Type: {bestFreeSpace.Zone.Name}; X: {bestFreeSpace.X}; Y: {bestFreeSpace.Y}; Price: {bestPrice:F2}");
         }
 
         private static void ReadTargetPoint()
@@ -95,8 +93,8 @@ namespace ParkingZones
                 {
                     Name = toknes[0],
                     TopLeftPoint = topLeftPoint,
-                    Height = int.Parse(toknes[3]),
-                    Width = int.Parse(toknes[4]),
+                    Width = int.Parse(toknes[3]),
+                    Height = int.Parse(toknes[4]),
                     PricePerMinute = double.Parse(toknes[5])
                 };
 
