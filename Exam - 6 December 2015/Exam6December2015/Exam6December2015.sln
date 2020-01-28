@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sequences", "Sequences\Sequences.csproj", "{4FB7A457-38C7-4C82-84A4-A9121BA7BD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSharing", "MessageSharing\MessageSharing.csproj", "{13574BF7-4470-4471-8ABD-564C46B5FF32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonCrossingBridges", "NonCrossingBridges\NonCrossingBridges.csproj", "{083088EC-92ED-4B99-B7B3-291BDA3DDFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedRectangles", "NestedRectangles\NestedRectangles.csproj", "{FC424B43-6205-4C42-BEFB-E451C9830800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FB7A457-38C7-4C82-84A4-A9121BA7BD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB7A457-38C7-4C82-84A4-A9121BA7BD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB7A457-38C7-4C82-84A4-A9121BA7BD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB7A457-38C7-4C82-84A4-A9121BA7BD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13574BF7-4470-4471-8ABD-564C46B5FF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13574BF7-4470-4471-8ABD-564C46B5FF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13574BF7-4470-4471-8ABD-564C46B5FF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13574BF7-4470-4471-8ABD-564C46B5FF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083088EC-92ED-4B99-B7B3-291BDA3DDFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083088EC-92ED-4B99-B7B3-291BDA3DDFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083088EC-92ED-4B99-B7B3-291BDA3DDFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083088EC-92ED-4B99-B7B3-291BDA3DDFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC424B43-6205-4C42-BEFB-E451C9830800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC424B43-6205-4C42-BEFB-E451C9830800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC424B43-6205-4C42-BEFB-E451C9830800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC424B43-6205-4C42-BEFB-E451C9830800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38880787-9608-4EB4-A135-75D2469D732F}
+	EndGlobalSection
+EndGlobal
