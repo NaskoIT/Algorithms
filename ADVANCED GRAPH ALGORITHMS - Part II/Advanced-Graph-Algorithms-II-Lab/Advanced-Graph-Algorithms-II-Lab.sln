@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxFlowEdmondsKarp", "MaxFl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxFlowEdmondsKarp.Tests", "MaxFlowEdmondsKarp.Tests\MaxFlowEdmondsKarp.Tests.csproj", "{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinitzAlgorithm", "DinitzAlgorithm\DinitzAlgorithm.csproj", "{65DED460-B5AF-4005-8CBC-BDD03E915D24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DinitzAlgorithm", "MaxFlowDinitzAlgorithm\DinitzAlgorithm.csproj", "{0132C513-E656-4C8E-AA25-D4FAFE422BB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65DED460-B5AF-4005-8CBC-BDD03E915D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65DED460-B5AF-4005-8CBC-BDD03E915D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65DED460-B5AF-4005-8CBC-BDD03E915D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65DED460-B5AF-4005-8CBC-BDD03E915D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0132C513-E656-4C8E-AA25-D4FAFE422BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0132C513-E656-4C8E-AA25-D4FAFE422BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0132C513-E656-4C8E-AA25-D4FAFE422BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0132C513-E656-4C8E-AA25-D4FAFE422BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,6 +6,7 @@ namespace DinitzAlgorithm
     class Program
     {
         private static int[] bfsDistance;
+        private static int[] childCounter;
         private static int[][] graph;
         private static int endNode;
 
@@ -24,6 +25,7 @@ namespace DinitzAlgorithm
             int startNode = 0;
             endNode = graph.Length - 1;
             bfsDistance = new int[graph.Length];
+            childCounter = new int[graph.Length];
 
             int maxFlow = Dinic(startNode, endNode);
             Console.WriteLine("Max Flow: " + maxFlow);
@@ -35,6 +37,11 @@ namespace DinitzAlgorithm
 
             while (Bfs(sourceNode, destinationNode))
             {
+                for (int i = 0; i < childCounter.Length; i++)
+                {
+                    childCounter[i] = 0;
+                }
+
                 int pathFlow;
                 do
                 {
@@ -54,8 +61,9 @@ namespace DinitzAlgorithm
                 return flow;
             }
 
-            for (int child = 0; child < graph[sourceNode].Length; child++)
+            for (int i = childCounter[sourceNode]; i < graph[sourceNode].Length; i++, childCounter[sourceNode]++)
             {
+                int child = i;
                 if (graph[sourceNode][child] <= 0)
                 {
                     continue;
