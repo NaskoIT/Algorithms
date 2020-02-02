@@ -21,6 +21,7 @@ public class EdmondsKarp
             {
                 int previousNode = parents[currentNode];
                 int currentFlow = graph[previousNode][currentNode];
+                if(pathFlow > currentFlow)
                 {
                     pathFlow = currentFlow;
                 }
