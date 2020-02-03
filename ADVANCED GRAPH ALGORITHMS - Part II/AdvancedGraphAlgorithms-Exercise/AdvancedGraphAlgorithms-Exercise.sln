@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumTasksAssaignment", "MaximumTasksAssaignment\MaximumTasksAssaignment.csproj", "{ABB85A2F-50F6-4F62-8CC2-3AE34D8C0FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumTasksAssaignment", "MaximumTasksAssaignment\MaximumTasksAssaignment.csproj", "{ABB85A2F-50F6-4F62-8CC2-3AE34D8C0FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBiConnectedComponents", "FindBiConnectedComponents\FindBiConnectedComponents.csproj", "{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindBiConnectedComponents", "FindBiConnectedComponents\FindBiConnectedComponents.csproj", "{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBlockCutTree", "BuildBlockCutTree\BuildBlockCutTree.csproj", "{5F6E15AE-4B92-4B21-AB25-561C0E2BB56D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7676C3FD-10B6-48EE-AB6F-6816E5FCECBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6E15AE-4B92-4B21-AB25-561C0E2BB56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6E15AE-4B92-4B21-AB25-561C0E2BB56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6E15AE-4B92-4B21-AB25-561C0E2BB56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6E15AE-4B92-4B21-AB25-561C0E2BB56D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
