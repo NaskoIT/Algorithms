@@ -5,9 +5,9 @@ namespace WordCruncher
 {
     class Program
     {
-        private static Dictionary<string, int> stringsByCount = new Dictionary<string, int>();
+        private static readonly Dictionary<string, int> stringsByCount = new Dictionary<string, int>();
         private static string targetString;
-        private static List<string> parts = new List<string>();
+        private static readonly List<string> parts = new List<string>();
 
         static void Main(string[] args)
         {
@@ -36,6 +36,7 @@ namespace WordCruncher
                 {
                     Console.WriteLine(string.Join(" ", parts));
                 }
+
                 return;
             }
 

@@ -4,9 +4,9 @@ namespace WordDifferences
 {
     public class Program
     {
-        private static int deleteCost = 1;
-        private static int replaceCost = 2;
-        private static int insertCost = 1;
+        private static readonly int deleteCost = 1;
+        private static readonly int replaceCost = 2;
+        private static readonly int insertCost = 1;
         private static int[,] costs;
 
         static void Main(string[] args)
