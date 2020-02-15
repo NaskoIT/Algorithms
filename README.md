@@ -68,7 +68,7 @@ Code in this repo is from exercises and demos in course "Algorithms" at SoftUni.
     * Implement your algorithm step-by-step
     * Thoroughly test your solution
     
- 12. SOLVING PRACTICAL PROBLEMS
+12. SOLVING PRACTICAL PROBLEMS
     * Solving practical problems with various algorithms
 
 Final Exam: 21 September 2019 - 400/400 points
