@@ -11,9 +11,8 @@ namespace RoadReconstruction
         private static int[] depths;
         private static int[] lowpoints;
         private static int?[] parent;
-        private static List<int> articulationPoints;
         private static int size;
-        private static StringBuilder output = new StringBuilder();
+        private static readonly StringBuilder output = new StringBuilder();
 
         public static void Main()
         {
@@ -36,11 +35,11 @@ namespace RoadReconstruction
             }
 
             output.AppendLine("Important streets:");
-            FindArticulationPoints();
+            FindImportantStreets();
             Console.WriteLine(output.ToString().Trim());
         }
 
-        public static List<int> FindArticulationPoints()
+        public static void FindImportantStreets()
         {
             size = graph.Length;
             depths = new int[size];
@@ -55,8 +54,6 @@ namespace RoadReconstruction
                     FindArticulationPoints(node, 1);
                 }
             }
-
-            return articulationPoints;
         }
 
         private static void FindArticulationPoints(int node, int depth)
@@ -64,7 +61,6 @@ namespace RoadReconstruction
             visited[node] = true;
             lowpoints[node] = depth;
             depths[node] = depth;
-            int childCount = 0;
 
             foreach (var childNode in graph[node])
             {
@@ -72,7 +68,6 @@ namespace RoadReconstruction
                 {
                     parent[childNode] = node;
                     FindArticulationPoints(childNode, depth + 1);
-                    childCount += 1;
                     if (lowpoints[childNode] > depths[node])
                     {
                         output.AppendLine($"{node} {childNode}");

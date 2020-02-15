@@ -16,8 +16,8 @@ namespace WordDifferences
 
             costs = new int[originalString.Length + 1, targetString.Length + 1];
             FillCosts(originalString, targetString);
-
             int operationsCount = costs[originalString.Length, targetString.Length];
+            
             Console.WriteLine($"Deletions and Insertions: " + operationsCount);
         }
 
