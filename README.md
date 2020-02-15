@@ -9,7 +9,8 @@ Code in this repo is from exercises and demos in course "Algorithms" at SoftUni.
    * Sorting, stable and unstable sorting, comparison-based sorting
    * Selection sort, bubble sort, insertion sort, quicksort, merge sort
    * Counting-based sorting: counting sort, bucket sort
-   * Search algorithms: linear search, binary search
+   * Search algorithms: linear search, binary search, interpolation search
+    * Shuffle algorithms
   
 2. RECURSION, SORTING AND SEARCHING ALGORITHMS - EXERCISE
    * Solving practical problems with recursion
