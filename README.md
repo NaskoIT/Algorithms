@@ -73,3 +73,5 @@ Code in this repo is from exercises and demos in course "Algorithms" at SoftUni.
     * Solving practical problems with various algorithms
 
 Final Exam: 21 September 2019 - 400/400 points
+
+Retake Exam: 28 September 2019 - 400/400 points
